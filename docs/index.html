@@ -5,9 +5,9 @@
     <link href="styles/app.css" rel="stylesheet">
     <!-- Custom Prism Style -->
     <!-- <link href="styles/prism.css" rel="stylesheet"> -->
-    <link href="img/favicon.ico" rel="shortcut icon">
+    <link href="img/favicon.32.png" sizes="32x32" rel="shortcut icon">
+    <link href="img/favicon.png" sizes="64x64" rel="shortcut icon">
     <link href="https://fonts.googleapis.com/css?family=Ruda" rel="stylesheet">
-    <link href="css/npm-badge.css" rel="stylesheet">
     <link href="css/loaders/inner-circles.css" rel="stylesheet">
   </head>
   <body>
@@ -15,52 +15,46 @@
     <div class="table">
       <div class="left-column">
         <div class="logo">
-          <img src="img/logo.jpg" alt="splendid logo">
-        </div>
-        <div class="badges">
-          <a class="SimpleBadge" href="https://github.com/artdecocode/splendid">
-            GitHub</a>
-          <a title="Static Web Site Generator With JSX As HTML." class="NPMBadge" href="https://npmjs.com/package/splendid">
-            <span class="name">_Splendid_</span><span class="version">1.6.1</span></a>
+          <picture alt="Anton CPHT Graduation Photo" io><source data-srcset="img/logo-480.webp 480w" sizes="250px" type="image/webp"><source data-srcset="img/logo.jpeg 480w,img/logo.jpeg 480w" sizes="250px"><img alt="Anton CPHT Graduation Photo" io data-src="img/logo.jpeg" data-srcset="img/logo.jpeg 480w,img/logo.jpeg 480w" sizes="250px"></picture>
+          <noscript><picture alt="Anton CPHT Graduation Photo"><source srcset="img/logo-480.webp 480w" sizes="250px" type="image/webp"><source srcset="img/logo.jpeg 480w,img/logo.jpeg 480w" sizes="250px"><img alt="Anton CPHT Graduation Photo" src="img/logo.jpeg" srcset="img/logo.jpeg 480w,img/logo.jpeg 480w" sizes="250px"></picture></noscript>
         </div>
 
         <h3>Pages</h3>
 
         <ul class="AjaxNav"><li class="Active"><a data-file="index" href="/">Main Page</a></li></ul>
 
-        <h3>npm links</h3>
+        <!-- ### npm links -->
 
-        <ul>
+        <!-- <ul>
           <li><a href="https://www.npmjs.com/package/splendid">
    splendid</a></li>
           <li><a href="https://www.npmjs.com/package/mnp">
    mnp</a></li>
-        </ul>
+        </ul> -->
       </div>
       <div class="right-column" id="Content">
-        <h1>Main Page</h1>
+        <h1>Hypno Page</h1>
         
-        This is the main page. Hello world!
+        Welcome to my hypno page! ;)
+        
+        <!-- <section-break/> -->
+        
+        <h2>CD</h2>
+        
+        Please download the CD using the link supplied to you.
         
         <p class="SectionBreak">
           <a title="Back To Top" href="#top">
             <img src="section-breaks/0.svg" alt="Back To Top"></a>
         </p>
-        
-        <h2>Introduction</h2>
-        
-        This is introduction.
-        
-        <p class="SectionBreak">
-          <a title="Back To Top" href="#top">
-            <img src="section-breaks/1.svg" alt="Back To Top"></a>
-        </p>
       </div>
     </div>
     <footer>
-      &copy; <a href="https://splendid.sh">Splendid</a>, 2019
+      &copy; <a href="https://artd.eco">Art Deco</a>, 2019
     </footer>
     <script src="js/ajax-loader.js"></script>
+    <script src="js/polyfill/intersection-observer.js"></script>
+    <script src="js/images.js"></script>
     <script>window.AjaxLoader()</script>
   </body>
 </html>

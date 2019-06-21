@@ -1,5 +1,5 @@
-# Main Page
+# Hypno Page
 
-This is the main page. Hello world!
+Welcome to my hypno page! ;)
 
-<section-break/>
+<!-- <section-break/> -->
